@@ -17,9 +17,14 @@ module UpdaterGf
       end
 
       rubocop_yml_path = File.join(project_root, '.rubocop.yml')
-      new_rubocop_yml_path = File.expand_path('../../.rubocop.yml', __FILE__)
+      new_rubocop_yml_path = File.expand_path('.rubocop.yml', __dir__)
 
-      if File.exist?(rubocop_yml_path) && File.exist?(new_rubocop_yml_path)
+      unless File.exist?(rubocop_yml_path)
+        FileUtils.touch(rubocop_yml_path)
+        puts '.rubocop.yml not found, created a new one'
+      end
+
+      if File.exist?(new_rubocop_yml_path)
         FileUtils.cp(new_rubocop_yml_path, rubocop_yml_path)
         puts 'Updated .rubocop.yml'
       else
