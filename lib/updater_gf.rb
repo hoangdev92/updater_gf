@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require_relative 'updater_gf/version'
-require_relative 'updater_gf/constants'
 require_relative 'updater_gf/handle_update'
 module UpdaterGf
   class Error < StandardError; end
