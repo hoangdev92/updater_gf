@@ -13,7 +13,8 @@ UpdateGf
 Install the gem and add to the application's Gemfile by executing:
 
     $ bundle add updater_gf
-Add to gem file
+
+Add to gem file:
     $ gem 'updater_gf'
 
 If bundler is not being used to manage dependencies, install the gem by executing:
