@@ -29,6 +29,10 @@ after install gem
 open Terminal and go to directory of project run:
     $ updater_gf
 
+options: '-a and -r'
+    "'-a' will add commonly used gems"
+    "'-r' will update rubocop file"
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/devhoanglv92/updater_gf. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/devhoanglv92/updater_gf/blob/master/CODE_OF_CONDUCT.md).
