@@ -1,24 +1,24 @@
 # frozen_string_literal: true
 
-require_relative "lib/updater_gf/version"
+require_relative 'lib/updater_gf/version'
 
 Gem::Specification.new do |spec|
-  spec.name = 'gemfile_updater'
-  spec.version = GemfileUpdater::VERSION
+  spec.name = 'updater_gf'
+  spec.version = UpdaterGf::VERSION
   spec.authors = ['devhoanglv92']
   spec.email = ['devhoanglv92@gmail.com']
 
   spec.summary = 'update Gemfile and clean code file'
-  spec.description = 'update Gemfile and clean code file by gemfile_updater'
-  spec.homepage = 'https://github.com/hoangdev92/gemfile_updater'
+  spec.description = 'update Gemfile and clean code file by updater_gf'
+  spec.homepage = 'https://github.com/hoangdev92/updater_gf'
   spec.license = 'MIT'
   spec.required_ruby_version = '>= 2.6.5'
 
   spec.metadata['allowed_push_host'] = 'https://rubygems.org'
 
   spec.metadata['homepage_uri'] = spec.homepage
-  spec.metadata['source_code_uri'] = 'https://github.com/hoangdev92/gemfile_updater'
-  spec.metadata['changelog_uri'] = 'https://github.com/hoangdev92/gemfile_updater/blob/master/CHANGELOG.md'
+  spec.metadata['source_code_uri'] = 'https://github.com/hoangdev92/updater_gf'
+  spec.metadata['changelog_uri'] = 'https://github.com/hoangdev92/updater_gf/blob/master/CHANGELOG.md'
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

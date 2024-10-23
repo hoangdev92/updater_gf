@@ -1,0 +1,20 @@
+PATH
+  remote: .
+  specs:
+    updater_gf (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (13.2.1)
+
+PLATFORMS
+  arm64-darwin-21
+  ruby
+
+DEPENDENCIES
+  rake (~> 13.0)
+  updater_gf!
+
+BUNDLED WITH
+   2.5.6
