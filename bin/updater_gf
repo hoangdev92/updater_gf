@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'bundler/setup'
+require 'updater_gf'
+
+# Run the updater
+puts 'Running the updater gemfile'
+UpdaterGf::Updater.update_gemfile
+puts 'Finished running the updater gemfile'
