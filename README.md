@@ -30,7 +30,7 @@ open Terminal and go to directory of project run:
     $ updater_gf
 
 options: '-a and -r'
-    "'-a' will add commonly used gems"
+    "'-a' will add commonly used gems";
     "'-r' will update rubocop file"
 
 ## Contributing

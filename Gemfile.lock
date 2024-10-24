@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    updater_gf (0.1.4)
+    updater_gf (0.1.5)
 
 GEM
   remote: https://rubygems.org/
