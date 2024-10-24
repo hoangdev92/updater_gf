@@ -28,8 +28,8 @@ module UpdaterGf
       end
 
       def check_argv_error?(add_gem, add_robocop)
-        return true if add_gem != '-a' || add_gem != '-r'
-        return true if add_robocop != '-r'
+        return true if (add_gem != '-a' || add_gem != '-r') && add_gem != ''
+        return true if add_robocop != '' && add_robocop != '-r'
 
         false
       end
